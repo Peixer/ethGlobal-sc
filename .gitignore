@@ -1,0 +1,14 @@
+/node_modules
+/dist
+/build
+/cache
+/artifacts
+/cache-hardhat
+/cache-ignition
+/cache-viem
+/cache-forge
+/cache-hardhat-ignition
+/cache-hardhat-viem
+/cache-hardhat-forge
+/cache-hardhat-ignition-viem
+/cache-hardhat-ignition-forge
