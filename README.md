@@ -159,8 +159,8 @@ const TESTNET_CONFIG = {
 ### Deployed Contract Addresses
 
 **Testnet Deployment:**
-- **PYUSD Token**: `0x178f726de574954f4fdeb6c03a6f360ac5f84df2`
-- **PYUSD Transfer Contract**: Deploy using the script above
+- **PYUSD Token**: `0xCaC524BcA292aaade2DF8A05cC58F0a65B1B3bB9`
+- **PYUSD Transfer Contract**: `0x178f726de574954f4fdeb6c03a6f360ac5f84df2`
 
 ## 📊 Contract Events
 
