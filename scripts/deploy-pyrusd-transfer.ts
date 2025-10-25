@@ -6,21 +6,25 @@ async function main() {
   console.log("Deploying PYUSDMock token...");
   
   // Deploy mock PYUSD token first
-  const pyusdMock = await viem.deployContract("PYUSDMock", [
-    "PayPal USD Mock", // name
-    "PYUSDM", // symbol
-    6, // decimals (PYUSD uses 6 decimals)
-    1000000n * 10n ** 6n // initial supply: 1M tokens
-  ]);
+  // const pyusdMock = await viem.deployContract("PYUSDMock", [
+  //   "PayPal USD Mock", // name
+  //   "PYUSDM", // symbol
+  //   6, // decimals (PYUSD uses 6 decimals)
+  //   1000000n * 10n ** 6n // initial supply: 1M tokens
+  // ]);
+  // READ an existing contract
+  const pyusdMock = await viem.getContractAt("PYUSDMock", "0xd73a739f9eddd8cb0be824fab25232362271b45a");
   
   console.log(`PYUSDMock deployed to: ${pyusdMock.address}`);
   
   console.log("Deploying PYUSDTransfer contract...");
   
   // Deploy the PYUSDTransfer contract with mock token address
-  const pyusdTransfer = await viem.deployContract("PYUSDTransfer", [
-    pyusdMock.address
-  ]);
+  // const pyusdTransfer = await viem.deployContract("PYUSDTransfer", [
+  //   pyusdMock.address
+  // ]);
+  // READ an existing contract
+  const pyusdTransfer = await viem.getContractAt("PYUSDTransfer", "0x173c2afbd709e1a1cd4a26007cde467165886aa6");
   
   console.log(`PYUSDTransfer deployed to: ${pyusdTransfer.address}`);
   
