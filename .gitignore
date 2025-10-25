@@ -12,3 +12,5 @@
 /cache-hardhat-forge
 /cache-hardhat-ignition-viem
 /cache-hardhat-ignition-forge
+
+.env
