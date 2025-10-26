@@ -1,5 +1,12 @@
 # 🚀 PYUSD Transfer Smart Contract
 
+<div align="center">
+  <h1 align="center">
+    <img src="https://github.com/BernardoPeixer/atlas/blob/2a2be615cf019b086aceb974eea00d68c231e3b2/logo.png" alt="Atlas Logo" width="200">
+  </h1> 
+  <h3>◦ Buy, manage, and use consumption cards seamlessly at the festival. Powered by blockchain for instant, secure transactions.</h3>
+</div>
+
 > **A secure, efficient smart contract for PYUSD token transfers with order tracking and duplicate prevention**
 
 Built for **ETHGlobal Hackathon** using Hardhat 3 Beta, TypeScript, and modern Ethereum development tools.
